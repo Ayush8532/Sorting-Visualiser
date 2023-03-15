@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500&family=Work+Sans:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+   color: #001f3f;
+    font-family: 'Caveat', cursive;
+}
+.parent{
+    background-size: cover;
+    margin-top: 6vh
+}
+.sorting-visualizer {
+    background-color: rgb(109, 206, 245);
+    border: 3px solid black;
+    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.array-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 60%;
+  width: 80%;
+  margin-top: 80px;
+}
+
+.array-bar {
+  width: 20px;
+  margin: 0 2px;
+  background-color: #0074d9;
+  border: 1px solid white;
+}
+span{
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #001f3f;
+}
+.detail{
+    background-color: #0074d9;
+}
